@@ -1,0 +1,8 @@
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\bin\Debug\LinkedList_Basic.exe.config
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\bin\Debug\LinkedList_Basic.exe
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\bin\Debug\LinkedList_Basic.pdb
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\obj\Debug\LinkedList_Basic.csproj.AssemblyReference.cache
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\obj\Debug\LinkedList_Basic.csproj.SuggestedBindingRedirects.cache
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\obj\Debug\LinkedList_Basic.csproj.CoreCompileInputs.cache
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\obj\Debug\LinkedList_Basic.exe
+D:\Template Repo\InterviewPrep\1.LinkedList\LinkedList_Basic\LinkedList_Basic\obj\Debug\LinkedList_Basic.pdb
