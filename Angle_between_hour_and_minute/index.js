@@ -30,4 +30,4 @@ const angleCalculator=(H,M)=>{
     
 }
 
-console.log(angleCalculator(3,45));
+console.log(angleCalculator(3,30));
