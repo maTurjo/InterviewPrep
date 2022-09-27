@@ -3,7 +3,6 @@
  * @return {string}
  */
  var longestCommonPrefix = function(strs) {
-    console.clear();
     let sortedArray=strs.sort((a,b)=>b.length-a.length);
     let longestPrefix=sortedArray[sortedArray.length-1];
     sortedArray.forEach((item,index)=>{
@@ -14,7 +13,7 @@
             }
         }
     })
-    console.log(longestPrefix);
+    return longestPrefix;
 
 };
 
