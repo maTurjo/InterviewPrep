@@ -29,11 +29,22 @@ var equationsPossible = function(equations) {
             })
         });
         if(!matchFound) equalityArray.push([lhs,rhs]);
-
-      
     }
 }
 
+equalityArray.forEach((element,index)=>{
+    let j=index+1;
+    for(let i=0;i<element.length;i++){
+        if(equalityArray[j] && equalityArray[j].find(c=>c==element[i])){
+            element=[...element,...equalityArray[j]];
+            equalityArray[j]=[];
+            equalityArray[index]=[...element];
+            console.log(element);
+            break;
+        }
+    }
+})
+console.log(equalityArray);
     
     for(let i=0;i<equations.length;i++){
         let lhs=equations[i][0];
@@ -55,7 +66,7 @@ var equationsPossible = function(equations) {
             })
         }
     }
-console.log(equalityArray);
+// console.log(equalityArray);
     return returnValue;
 
   
@@ -71,4 +82,4 @@ let input4=["a!=a"];
 let input5=["f==d","b!=e","d!=c","b==c","b!=a","b!=f"];
 let input6=["a==b","e==c","b==c","a!=e"];
 
-console.log(equationsPossible(input6))
+console.log(equationsPossible(input5))
